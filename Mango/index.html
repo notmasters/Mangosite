@@ -29,42 +29,46 @@
 u{
   color: rgb(250, 164, 4);
 }
+.coustom-toggler.navbar-toggler{
+border-color: white;
+}
+.card-img-top{
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin-left: 55px;
+}
 </style>
 
 
 <body>  
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-info  sticky-top">
-    <a class="navbar-brand" href="#"><img src="images/logo-removebg-preview.png" style="height: 5vh;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #18214E;">
+    <a class="navbar-brand" href="#"><img src="images/MANGIFERA_LOGO_FINAL.png" style="height: 6vh; width: 17vh;"></a>
+    <button class="navbar-toggler coustom-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link"  href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item active  ">
+          <a class="nav-link" style="color: rgb(228, 150, 5);"  href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Offer</a>
+          <a class="nav-link" style="color: rgb(228, 150, 5);" href="#about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item ">
+          <a class="nav-link" style="color: rgb(228, 150, 5);"  href="#" >
             Partner with us
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Society outreach Programme</a>
-            <a class="dropdown-item" href="#">Gift Mangoes</a>
-            <div></div>
-            <a class="dropdown-item" href="#">Bulk Orders</a>
-          </div>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link" style="color: rgb(228, 150, 5);"  href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(228, 150, 5);"  href="#Contact">Feedback</a>
         </li>
       </ul>
    
@@ -99,41 +103,7 @@ u{
     </a>
   </div>
   
-  <div class="container">
-    <div class="row text-center" >
-      <h1 class="text-center my-5 mx-auto"> <u>Offer</u> </h1>
-    </div>
-    <div class="row">
-      <div class="col-md">
-        <div class="card mx-auto border" style="width: 18rem; height: 16rem; ">
-          <div class="card-body">
-            <h5 class="card-title">Medium Size Mangoes</h5>
-            <img class="img-fluid" src="/Mango/images/slider2.jpeg"  style="height: 11rem;">
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="col-md">
-        <div class="card mx-auto  border" style="width: 18rem; height: 16rem;">
-      
-          <div class="card-body">
-            <h5 class="card-title">Large Size Mangoes</h5>
-            <img class="img-fluid" src="/Mango/images/slider3.jpeg"  style="height: 11rem;">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  
-    
-
-    
-  </div>
-  </div>
+ 
   
   <script>
   function myFunction() {
@@ -147,12 +117,130 @@ u{
   </script>
   
   <a name="about">
-<div class="about  text-center  mx-auto">
-  <h1 class=" my-4 "><u>About</u></h1>
-    <p>Overall, Blue Apron’s website has a great user experience. <br>
-      Their fun corporate photos take the spotlight and their value prop is made super clear right off the bat.<br> 
-      But what we like best is that the CTA buttons are very clear and show up twice—once at the top and again at the very bottom. <br>
-       Not all companies utilize their About Us page to hire, but when they do, this is how to do it.</p>
+<div class="about   mx-auto">
+  <h1 class=" my-4 text-center "><u>About</u></h1>
+   <h6>Mission:</h6>
+   <h6>History:</h6>
+   <h6>what our coustmer say:</h6>
+   <div class="container my-4">
+
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+
+
+<!--Indicators-->
+<!-- <ol class="carousel-indicators">
+  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+  <li data-target="#multi-item-example" data-slide-to="1"></li>
+  <li data-target="#multi-item-example" data-slide-to="2"></li>
+  <li data-target="#multi-item-example" data-slide-to="3"></li>
+
+  
+</ol> -->
+<!--/.Indicators-->
+
+<!--Slides-->
+<div class="carousel-inner bg-dark" role="listbox">
+
+  <!--First slide-->
+  <div class="carousel-item active">
+
+    <div class="col-md-3" style="float:left; margin-top: 20px;">
+     <div class="card mb-2">
+        <img class="card-img-top" 
+          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Anant M</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+  </div>
+  <!--/.First slide-->
+
+  <!--Second slide-->
+  <div class="carousel-item">
+
+    <div class="col-md-3" style="float:left; margin-top: 20px;">
+      <div class="card mb-2">
+        <img class="card-img-top" 
+          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Aditya Deshmukh</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    
+  
+
+  </div>
+  <!--/.Second slide-->
+
+  <!-- third slide -->
+  <div class="carousel-item">
+
+    <div class="col-md-3" style="float:left; margin-top: 20px;">
+      <div class="card mb-2">
+        <img class="card-img-top" 
+          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"> unknown</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    
+  
+
+  </div>
+<!-- fourth -->
+
+  <div class="carousel-item">
+
+    <div class="col-md-3" style="float:left; margin-top: 20px;">
+      <div class="card mb-2">
+        <img class="card-img-top" 
+          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Shrutweed</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    
+  
+
+  </div>
+
+  <!--Controls-->
+<div class="controls-top">
+  <a class="btn-floating" style="margin-left: 6rem;" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+  <a class="btn-floating" href="#multi-item-example" style="margin-left: 5rem;" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+</div>
+<!--/.Controls-->
+ 
+
+</div>
+<!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+   <h6>Why Mangifera:</h6>
+   <h6>Our Promise:</h6>
 
 </div>
 </a>
@@ -160,14 +248,14 @@ u{
 <a name="Contact">
   <h1 class="text-center my-3"> <u>Contact</u></h1>
 
-  <div class="container">
-      <hr >
+  <div class="container-fluid" style="background-color: #18214E;">
+      <hr>
   
-      <footer class="bg-dark text-center text-white">
+      <footer class="text-center text-white" >
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container p-3 pb-0">
           <!-- Section: Social media -->
-          <section class="mb-4">
+          <section class="mb-2">
             <!-- Facebook -->
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
                ><i class="fa fa-facebook-f"></i
@@ -175,7 +263,7 @@ u{
 
   
             <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="mailto:nantmudawadkar2019@gmail.com" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:anantmudawadkar2019@gmail.com" role="button"
                ><i class="fa fa-google"></i
               ></a>
   
@@ -187,15 +275,18 @@ u{
             <!-- Location -->
             <a class="btn btn-outline-light btn-floating m-1" href="https://goo.gl/maps/jV9d1cJDimVAVRoW7" role="button"
                ><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+
+               <a class="btn btn-outline-light btn-floating m-1" href="tel:+919146951069" role="button"
+               ><i class="fa fa-phone" aria-hidden="true"></i></a>
           </section>
           <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
   
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">Mymengifera.com</a>
+        <div class="text-center p-1" style="background-color: #18214E;">
+          © 2022 Copyright:
+          <a class="text-white" href="#">Mymengifera.com</a>
         </div>
         <!-- Copyright -->
       </footer>
